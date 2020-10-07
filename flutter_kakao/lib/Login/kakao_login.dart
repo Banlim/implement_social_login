@@ -9,7 +9,7 @@ class KakaoLogin extends StatefulWidget {
 }
 
 class _KakaoLoginState extends State<KakaoLogin> {
-  bool _isKakaoTalkInstalled = true;
+  bool _isKakaoTalkInstalled = false;
 
   @override
   Widget build(BuildContext context) {
