@@ -6,5 +6,5 @@
 * facebook social login (with firebase)
 
 ## Flutter
-* kakao social login
+* [kakao social login](https://github.com/Banlim/implement_social_login/blob/main/flutter_kakao/README.md)
 * naver social login
