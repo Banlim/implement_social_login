@@ -28,13 +28,13 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:host="oauth"
-                    android:scheme="kakao59ddfdc1265da832ea9b6f46da4c92e4"/>
+                    android:scheme="kakao{your native app key}"/>
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="59ddfdc1265da832ea9b6f46da4c92e4" />
+            android:value="{your Native App key}" />
     </application>
 
 </manifest>
