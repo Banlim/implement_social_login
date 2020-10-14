@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/login_done_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NICKNAME"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/login_done_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-MAIL"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/login_done_nickname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/login_done_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENDER"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/login_done_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/login_done_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIRTHDAY"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/login_done_gender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
