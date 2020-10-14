@@ -230,3 +230,4 @@
   * [네트워크 요청 결과 RxJava로 처리하기](https://eclipse-owl.tistory.com/24)
   * [Rxjava2에 Retrofit2 적용하기](https://poqw.github.io/RxJava2_3/)
   * [안드로이드의 RxJava 활용](https://beomseok95.tistory.com/59)
+  * [Retrofit을 이용한 토큰 인증 방식 구현](https://kimch3617.tistory.com/entry/Retrofit%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%86%A0%ED%81%B0-%EC%9D%B8%EC%A6%9D-%EB%B0%A9%EC%8B%9D-%EA%B5%AC%ED%98%84)
