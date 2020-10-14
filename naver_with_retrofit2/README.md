@@ -10,7 +10,7 @@
   android {
   
     . . .
-    // 아래 코드 추가해야 "NoSUchMethodError: No Static method metafactory" 에러 
+    // 아래 코드 추가해야 "NoSUchMethodError: No Static method metafactory" 에러 처리 가능 
     compileOptions{
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
