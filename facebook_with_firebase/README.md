@@ -8,7 +8,7 @@
 * Firebase 본인 Console에서 Authentication > Sign-in method > Facebook을 클릭한 후, 그 안에 facebook app id와 secret code를 입력한다.
 * Facebook Developer에서 본인의 Application > Facebook 로그인 > 설정 > client OAuth 설정 > Firebase에서 바로 윗 단계에서 얻은 Url을 입력한다.
 * Facebook 로그인은 Kakao 로그인처럼 keyhash 값을 얻어야 사용할 수 있다.
-  * [다음 링크](https://github.com/Banlim/implement_social_login/blob/main/flutter_kakao/README.md)를 통해 keyhash를 얻는다.
+  * 링크 참조 : [flutter_kakao login](https://github.com/Banlim/implement_social_login/blob/main/flutter_kakao/README.md)
 
 * build.gradle(:project)
   ~~~gradle
