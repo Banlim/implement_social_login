@@ -8,4 +8,4 @@
 
 ## Flutter
 * [kakao social login](https://github.com/Banlim/implement_social_login/blob/main/flutter_kakao/README.md)
-* naver social login
+* [naver social login](https://github.com/Banlim/implement_social_login/blob/main/naver_login/README.md)
