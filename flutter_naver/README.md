@@ -20,6 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 
 * build.gradle(:app)
   ~~~gradle
+  // 19 이상이면 된다.
   minSdkVersion 19
   ~~~
   
