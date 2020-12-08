@@ -203,3 +203,18 @@ KAKAO_SDK_VERSION=1.27.0
       }
   });
   ~~~
+  
+  * 연동 해제 코드
+  ~~~java
+  UserManagement.getInstance().requestUnlink(new UnLinkResponseCallback() {
+    @Override
+      public void onSessionClosed(ErrorResult errorResult) {
+        Log.d(TAG, "kakao session X");
+      }
+
+    @Override
+      public void onSuccess(Long result) {
+        Log.d(TAG, "카카오 연결 해제 성공");
+      }
+  });
+  ~~~
